@@ -1,0 +1,3 @@
+﻿chnage versionmanually in proyect
+dotnet pack -c Release
+dotnet nuget push bin\Release\MyLibraries4Revit.1.0.CHANGE_VERSION.nupkg --api-key API_KEY --source https://api.nuget.org/v3/index.json

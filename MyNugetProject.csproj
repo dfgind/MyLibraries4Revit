@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>MyLibraries4Revit</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>DF</Authors>
+		<Description>Revit API DLLs bundled for NuGet-based reuse.</Description>
+		<PackageTags>Revit;RevitAPI;Autodesk;RevitAddin</PackageTags>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<PackageLicenseUrl>https://www.autodesk.com/company/legal-notices-trademarks</PackageLicenseUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="lib\RevitAPI.dll" Pack="true" PackagePath="lib/netstandard2.0/" />
+		<None Include="lib\RevitAPIUI.dll" Pack="true" PackagePath="lib/netstandard2.0/" />
+		<None Include="readme.md" Pack="true" PackagePath="" />
+	</ItemGroup>
+</Project>
